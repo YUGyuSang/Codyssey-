@@ -1,4 +1,4 @@
-import os
+import os #
 import json # data를 json 형태로 출력하기 위해
 import random # random 함수 
 import datetime # 날짜 시간
