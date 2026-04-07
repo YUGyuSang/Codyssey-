@@ -1,0 +1,11 @@
+[info_settings]
+os 
+os_version
+cpu_type
+cpu_core
+memory_size
+
+[load_settings]
+cpu_usage
+memory_usage
+
