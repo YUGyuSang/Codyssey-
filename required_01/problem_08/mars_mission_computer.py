@@ -22,7 +22,7 @@ class MissionComputer:
                 for line in f:
                     line = line.strip()  # 앞 뒤 공백 제거 함수
                     if line.startswith('[') and line.endswith(']'): # line을 읽을 때 처음 '[' 끝']' 확인
-                        current_section = line[1:-1] # 그 후 첫번 째 문자 제외 및 마지막 문자 제외 파싱 작업
+                        current_section = line[1:-1] # 그 후 첫번째 문자 제외 및 마지막 문자 제외 파싱 작업
                     elif line and current_section == section: # 줄이 비어있지 않고 섹션이 일치하면
                         settings.append(line) # 해당 항목을 리스트에 추가
         except FileNotFoundError: # 예외처리
